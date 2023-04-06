@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/wallpaper.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cadastro {
+    position: relative;
+    width: 1550px;
+    height: 782px;
+}
+
+.cadastro > img {
+    width: 100px;
+    height: 100px;
+    left: 200px;
+}
+
+.cadastro > div {
+    position: absolute;
+    width: 583px;
+    height: 567px;
+    right: 525px;
+    top: 133px;
+    background: #5316ad;
+    box-shadow: 17px 18px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+}
+
+.cadastro > div > p {
+    position: absolute;
+    width: 106px;
+    height: 48px;
+    left: 230px;
+    top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao5 {
+    position: absolute;
+    width: 395px;
+    height: 66.67px;
+    left: 100px;
+    top: 105px;
+    background: #CACACA;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 3px 3px 1px #29065f;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao6 {
+    position: absolute;
+    width: 395px;
+    height: 66.67px;
+    left: 100px;
+    top: 190px;
+    background: #CACACA;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 3px 4px 1px #29065f;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao7 {
+    position: absolute;
+    width: 395px;
+    height: 66.67px;
+    left: 100px;
+    top: 278px;
+    background: #CACACA;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 3px 3px 1px #29065f;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao8 {
+    position: absolute;
+    width: 395px;
+    height: 66.67px;
+    left: 100px;
+    top: 365px;
+    background: #CACACA;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 3px 3px 1px #29065f;
+    text-shadow: ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao9 {
+    position: absolute;
+    width: 100px;
+    height: 66.67px;
+    left: 250px;
+    top: 450px;
+    background: #CACACA;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 27px;
+    box-shadow: 3px 3px 1px #29065f;
+    text-shadow: ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

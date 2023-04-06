@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/wallpaper.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo > img {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 71.636px;
+    line-height: 87px;
+    background: radial-gradient(50% 50% at 50% 50%, #FF0000 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 1.43272px 5.25331px 1.91029px rgba(44, 230, 255, 0.44);
+}
+
+.logo > a {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: 1351px;
+    top: 57px;
+    background: #C957FF;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    position: absolute;
+    width: 621px;
+    height: 58px;
+    left: 485px;
+    top: 340px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.logo > p {
+    position: absolute;
+    width: 675px;
+    height: 112px;
+    left: 439px;
+    top: 424px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    color: #bfb9b9;
+}
+
+.foto > img {
+    position: absolute;
+    width: 791px;
+    height: 91px;
+    left: 361px;
+    top: 576px;
+}

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/wallpaper.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.botao10 {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: 1100px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    background: #C957FF;
+    border-radius: 10px;
+}
+
+.botao11 {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: 1350px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    background: #C957FF;
+    border-radius: 10px;
+}
+
+h1 {
+    position: absolute;
+    width: 531px;
+    height: 364px;
+    left: 249px;
+    top: 254px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    line-height: 182px
+}
+
+.cmc > img {
+    position: absolute;
+    width: 531px;
+    height: 364px;
+    left: 550px;
+    top: 254px;
+}
+
+.botao12 {   
+    position: absolute;
+    width: 91px;
+    height: 40px;
+    left: 20px;
+    top: 700px;
+    background: #FF0000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.rolagem {
+    position: absolute;
+    width: 650.57px;
+    height: 303px;
+    left: 34.85px;
+    top: 960px;
+}
+
+.rolagem > p {
+    position: absolute;
+    width: 999px;
+    height: 204px;
+    left: 250px;
+    top: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.rolagem2 {
+    position: absolute;
+    width: 574.1px;
+    height: 280.88px;
+    left: 750px;
+    top: 1750px;
+}
+
+.rolagem2 > p {
+    position: absolute;
+    width: 754px;
+    height: 145px;
+    left: 1px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.foto {   
+    position: absolute;
+    width: 450px;
+    height: 567px;
+    right: 800px;
+    top: 150px;
+}
+
+.rolagem3 > img {  
+    position: absolute;
+    width: 677.26px;
+    height: 314.77px;
+    left: 650px;
+    top: 2650px;
+    filter: drop-shadow(0px 11px 4px rgba(255, 0, 0, 0.25));
+}
+
+.rolage {
+    position: absolute;
+    width: 299.93px;
+    height: 445px;
+    left: 50px;
+    top: 2900px;
+}
+
+.rolage > p {
+    position: absolute;
+    width: 707px;
+    height: 178px;
+    left: 538px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+} 
