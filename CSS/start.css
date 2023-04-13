@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    background-color: white;
+    padding: 70px;
+    padding-left: 20px;
+    height: 10px;
+}
+
+.logo-menu2 > img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 7px;
+    top: 23px;
+}
+
+.logo-menu {
+    display: flex;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.botao-menu {
+    font-size: 20px;
+}
+
+.logo {
+    padding: 110px;
+}
+
+.log > p {
+    margin-left: 700px;
+    font-weight: 600;
+    color: black;
+}
+
+.rolagem {
+    width: 100%;
+    background: linear-gradient(160.69deg, #2D33BC 21.78%, rgba(0, 163, 255, 0.7) 54.68%, rgba(173, 0, 255, 0.66) 77.29%);
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+.rolagem::-webkit-scrollbar {
+    display: none;
+}
+
+.rolagem > img {
+    height: 350px;
+}
+
+p {
+    color: white;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}

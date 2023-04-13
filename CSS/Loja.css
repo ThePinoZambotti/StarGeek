@@ -79,3 +79,93 @@ h2 {
     left: 361px;
     top: 576px;
 }
+
+.texto > p {
+    position: absolute;
+    width: 772px;
+    height: 116px;
+    left: 391px;
+    top: 1152px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+
+.texto > img {
+    position: absolute;
+    width: 508px;
+    height: 294px;
+    left: 938px;
+    top: 1415px;
+}
+
+.texto2 > p {
+    position: absolute;
+    width: 631px;
+    height: 256px;
+    left: 821px;
+    top: 2045px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.texto2 > img {
+    position: absolute;
+    width: 498px;
+    height: 267px;
+    left: 51px;
+    top: 2387px;
+}
+
+.foto2 > img {
+    position: absolute;
+    width: 498px;
+    height: 267px;
+    left: 51px;
+    top: 1987px;
+}
+
+.foto3 > img {
+    position: absolute;
+    width: 498px;
+    height: 267px;
+    left: 901px;
+    top: 2387px;
+}
+
+.texto3 > p {
+    position: absolute;
+    width: 583px;
+    height: 267px;
+    left: 749px;
+    top: 3068px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.foto4 > img {
+    position: absolute;
+    width: 276px;
+    height: 183px;
+    left:88px;
+    top: 2985px;
+}
+
+.foto5 > img {
+    position: absolute;
+    width: 276px;
+    height: 183px;
+    left:88px;
+    top: 3285px;
+}
