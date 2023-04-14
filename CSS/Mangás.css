@@ -10,6 +10,7 @@ body {
 
 header {
     position: sticky;
+    display: flex;
     top: 0;
     opacity: 0.7;
     display: flex;
@@ -67,36 +68,31 @@ a {
     color: black;
 }
 
-.rolagem {
-    width: 100%;
-    background: linear-gradient(160.69deg, #2D33BC 21.78%, rgba(0, 163, 255, 0.7) 54.68%, rgba(173, 0, 255, 0.66) 77.29%);
-    display: flex;
-    overflow-x: scroll;
-    gap: 20px;
-    padding: 20px;
-    margin-top: 30px;
-}
-
-.log > a {
-    margin-left: 700px;
-}
-
-.rolagem::-webkit-scrollbar {
-    display: none;
-}
-
-.rolagem > img {
+.manga > img {
     height: 350px;
+    margin: 55px;
     border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
 
-p {
+.manga > img:hover {
+    height: 350px;
+    margin: 55px;
+    border-radius: 8px;
+    transform: scale(1.2);
+}
+
+.manga > p {
     color: white;
-    margin-top: 35px;
-    margin-left: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
+}
+
+.log > a {
+    margin-left: 700px;
 }
