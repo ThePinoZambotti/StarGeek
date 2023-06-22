@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Favoritos</title>
-    <link rel="stylesheet" href="CSS/Meus Favoritos.css">
+    <title>Midia</title>
+    <link rel="stylesheet" href="CSS/Midia.css">
+    <script defer src="JS/JavaScript.js"></script>
+
 </head>
+
 <body>
-    
+
     <header>
         <div class="logo-menu2">
            <img src="img/Star 13.png" alt="">
@@ -18,8 +21,7 @@
                      <li><a href="Série.html"> Série </a></li>
                      <li><a href="Anime.html"> Anime </a></li>
                      <li><a href="Mangás.html"> Mangá </a></li>
-                     <li><a href="#"> Meus Favoritos </a></li>
-                     <li><a href="Cadastro-de-midia.html"> Cadastro de Midia </a></li>
+                     <li><a href="Meus Favoritos.html"> Meus Favoritos </a></li>
                   </ul>
               </div> 
             </nav>
@@ -28,21 +30,29 @@
                      <a href="index.html">Sair</a>
                 </div>
                 <img src="img/Ellipse 13.png" alt="">
-     </header>
+     </header> 
+     
+     <div class="fundo">
 
-     <div class="favoritos">
-            <p>Favoritos</p>
-        <img src="img/Charlotte.jpg" alt="">
-        <img src="img/Chainsaw Man.jpg" alt="">
-        <img src="img/Black Clover.jpg" alt="">
-        <img src="img/Breaking Bad.jpg" alt="">
-        <img src="img/Peaky Blinders.jpg" alt="">
-        <img src="img/Rick and Morty.webp" alt="">
-        <img src="img/The 100.jpg" alt="">
-        <img src="img/Solo Leveling.jpg" alt="">
-        <img src="img/The Beginning Afther The End.png" alt="">
-        <img src="img/Shitara Tensei.jpg" alt="">
+        <label>Nome do Filme/Série</label>
+
+           <textarea id="nome"></textarea>
+
+        <label>Resumo sobre</label>
+
+           <textarea id="resumo"></textarea>
+
+        <label>Link</label>
+
+           <textarea id="link"></textarea>
+
+           <button onclick="Gerar()">Cadastrar Midia</button>
+
      </div>
+
+     <p id="Resultado"></p>
+     
     
 </body>
+
 </html>
